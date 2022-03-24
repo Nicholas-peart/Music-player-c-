@@ -1,0 +1,75 @@
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\Rebmem_musicplayer.exe.config
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\Rebmem_musicplayer.exe
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\Rebmem_musicplayer.pdb
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.music_player.resources
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.Properties.Resources.resources
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.GenerateResource.cache
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.CoreCompileInputs.cache
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.exe
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.pdb
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\Interop.WMPLib.dll
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.AssemblyReference.cache
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Interop.WMPLib.dll
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.ResolveComReference.cache
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.Frmsearch.resources
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.FrmSavePlaylist.resources
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\EntityFramework.dll
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\EntityFramework.xml
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.CopyComplete
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.FrmArtist.resources
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.Frmalbum.resources
+C:\Users\Lilni\source\repos\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.FrmLoadPlaylist.resources
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\Rebmem_musicplayer.exe.config
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\Rebmem_musicplayer.exe
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\Rebmem_musicplayer.pdb
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\EntityFramework.dll
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\EntityFramework.xml
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\Interop.WMPLib.dll
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.AssemblyReference.cache
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Interop.WMPLib.dll
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.ResolveComReference.cache
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.music_player.resources
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.Frmalbum.resources
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.FrmArtist.resources
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.FrmLoadPlaylist.resources
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.FrmSavePlaylist.resources
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.Frmsearch.resources
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.Properties.Resources.resources
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.GenerateResource.cache
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.CoreCompileInputs.cache
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.CopyComplete
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.exe
+C:\Users\Lilni\Desktop\Nicholas Peart-Synoptic project\Rebmem_musicplayer\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.pdb
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\bin\Debug\Rebmem_musicplayer.exe.config
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\bin\Debug\Rebmem_musicplayer.exe
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\bin\Debug\Rebmem_musicplayer.pdb
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\bin\Debug\EntityFramework.dll
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\bin\Debug\EntityFramework.xml
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\bin\Debug\Interop.WMPLib.dll
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.AssemblyReference.cache
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Interop.WMPLib.dll
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.ResolveComReference.cache
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.music_player.resources
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.Frmalbum.resources
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.FrmArtist.resources
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.FrmLoadPlaylist.resources
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.FrmSavePlaylist.resources
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.Frmsearch.resources
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.Properties.Resources.resources
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.GenerateResource.cache
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.CoreCompileInputs.cache
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.csproj.CopyComplete
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.exe
+C:\Users\Lilni\Desktop\GitProject\Music-player-c-\Rebmem_musicplayer\obj\Debug\Rebmem_musicplayer.pdb

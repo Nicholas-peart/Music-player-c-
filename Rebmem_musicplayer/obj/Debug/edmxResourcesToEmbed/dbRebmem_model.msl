@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Rebmem_MusicPlayerModelStoreContainer" CdmEntityContainer="Rebmem_MusicPlayerdbcontext">
+    <EntitySetMapping Name="Albums">
+      <EntityTypeMapping TypeName="Rebmem_MusicPlayerModel.Album">
+        <MappingFragment StoreEntitySet="Album">
+          <ScalarProperty Name="albumId" ColumnName="albumId" />
+          <ScalarProperty Name="albumTitle" ColumnName="albumTitle" />
+          <ScalarProperty Name="artistId" ColumnName="artistId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Artists">
+      <EntityTypeMapping TypeName="Rebmem_MusicPlayerModel.Artist">
+        <MappingFragment StoreEntitySet="Artist">
+          <ScalarProperty Name="artistId" ColumnName="artistId" />
+          <ScalarProperty Name="artistName" ColumnName="artistName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Playlists">
+      <EntityTypeMapping TypeName="Rebmem_MusicPlayerModel.Playlist">
+        <MappingFragment StoreEntitySet="Playlist">
+          <ScalarProperty Name="PId" ColumnName="PId" />
+          <ScalarProperty Name="PName" ColumnName="PName" />
+          <ScalarProperty Name="PAddedDate" ColumnName="PAddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Songs">
+      <EntityTypeMapping TypeName="Rebmem_MusicPlayerModel.Song">
+        <MappingFragment StoreEntitySet="Song">
+          <ScalarProperty Name="songId" ColumnName="songId" />
+          <ScalarProperty Name="songTitle" ColumnName="songTitle" />
+          <ScalarProperty Name="songFilePath" ColumnName="songFilePath" />
+          <ScalarProperty Name="albumId" ColumnName="albumId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Playlist_Song_Ref" TypeName="Rebmem_MusicPlayerModel.Playlist_Song_Ref" StoreEntitySet="Playlist_Song_Ref">
+      <EndProperty Name="Playlist">
+        <ScalarProperty Name="PId" ColumnName="playlistId" />
+      </EndProperty>
+      <EndProperty Name="Song">
+        <ScalarProperty Name="songId" ColumnName="songId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

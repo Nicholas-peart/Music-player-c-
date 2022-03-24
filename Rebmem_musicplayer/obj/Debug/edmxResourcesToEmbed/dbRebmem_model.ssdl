@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Rebmem_MusicPlayerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Album">
+    <Key>
+      <PropertyRef Name="albumId" />
+    </Key>
+    <Property Name="albumId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="albumTitle" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="artistId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Artist">
+    <Key>
+      <PropertyRef Name="artistId" />
+    </Key>
+    <Property Name="artistId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="artistName" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Playlist">
+    <Key>
+      <PropertyRef Name="PId" />
+    </Key>
+    <Property Name="PId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PName" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="PAddedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Playlist_Song_Ref">
+    <Key>
+      <PropertyRef Name="songId" />
+      <PropertyRef Name="playlistId" />
+    </Key>
+    <Property Name="songId" Type="int" Nullable="false" />
+    <Property Name="playlistId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Song">
+    <Key>
+      <PropertyRef Name="songId" />
+    </Key>
+    <Property Name="songId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="songTitle" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="songFilePath" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="albumId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="fk_albumId">
+    <End Role="Album" Type="Self.Album" Multiplicity="1" />
+    <End Role="Song" Type="Self.Song" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Album">
+        <PropertyRef Name="albumId" />
+      </Principal>
+      <Dependent Role="Song">
+        <PropertyRef Name="albumId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_artistId">
+    <End Role="Artist" Type="Self.Artist" Multiplicity="1" />
+    <End Role="Album" Type="Self.Album" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artist">
+        <PropertyRef Name="artistId" />
+      </Principal>
+      <Dependent Role="Album">
+        <PropertyRef Name="artistId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_playlistId">
+    <End Role="Playlist" Type="Self.Playlist" Multiplicity="1" />
+    <End Role="Playlist_Song_Ref" Type="Self.Playlist_Song_Ref" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Playlist">
+        <PropertyRef Name="PId" />
+      </Principal>
+      <Dependent Role="Playlist_Song_Ref">
+        <PropertyRef Name="playlistId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_songId">
+    <End Role="Song" Type="Self.Song" Multiplicity="1" />
+    <End Role="Playlist_Song_Ref" Type="Self.Playlist_Song_Ref" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Song">
+        <PropertyRef Name="songId" />
+      </Principal>
+      <Dependent Role="Playlist_Song_Ref">
+        <PropertyRef Name="songId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Rebmem_MusicPlayerModelStoreContainer">
+    <EntitySet Name="Album" EntityType="Self.Album" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Artist" EntityType="Self.Artist" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Playlist" EntityType="Self.Playlist" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Playlist_Song_Ref" EntityType="Self.Playlist_Song_Ref" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Song" EntityType="Self.Song" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_albumId" Association="Self.fk_albumId">
+      <End Role="Album" EntitySet="Album" />
+      <End Role="Song" EntitySet="Song" />
+    </AssociationSet>
+    <AssociationSet Name="fk_artistId" Association="Self.fk_artistId">
+      <End Role="Artist" EntitySet="Artist" />
+      <End Role="Album" EntitySet="Album" />
+    </AssociationSet>
+    <AssociationSet Name="fk_playlistId" Association="Self.fk_playlistId">
+      <End Role="Playlist" EntitySet="Playlist" />
+      <End Role="Playlist_Song_Ref" EntitySet="Playlist_Song_Ref" />
+    </AssociationSet>
+    <AssociationSet Name="fk_songId" Association="Self.fk_songId">
+      <End Role="Song" EntitySet="Song" />
+      <End Role="Playlist_Song_Ref" EntitySet="Playlist_Song_Ref" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
