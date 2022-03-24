@@ -7,7 +7,7 @@ using System.Windows.Forms;
 namespace Rebmem_musicplayer
 {
     static class Program
-    {
+    {   //comment
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
